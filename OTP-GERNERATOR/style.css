@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #78c1f3 !important;  
+}
+.container1,.container2,.container3{
+    width: 400px;
+    background-color: white !important;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+ }
+#emailAddress{
+padding: 5px 25px;
+width: 90%;
+text-align: center;
+} 
+.opt-group input{
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #a3a3a3;
+    padding: 5px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.verifyButton , .nextButton{
+    color: white;
+cursor: pointer;
+border-radius: 20px;
+background-color: #0099ff !important;
+border: none;
+width: 100%;
+padding: 10px;
+}
+.verifyButton , .nextButton .disable{
+pointer-events: none;
+opacity: 0.6;
+user-select: none;
+}
